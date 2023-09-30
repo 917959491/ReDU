@@ -1,0 +1,7 @@
+1.人民网结果的处理代码是6_op_renminwang.py
+人民网数据集训练得到的结果存在文件夹renminwang_save_result文件夹中
+最后整理得到的人民网结果存在renminwang_o0.2p0.5-7.0.txt中，已交给邵源铭
+2.微博数据集得到的结果存在文件夹save_result（观察时间为0.2h）和save_result_o0.1（观察时间为0.1h）中
+整理得到的结果在weibo_o0.2txt和weibo_o0.1.txt中，之前也已交给邵源铭
+3.result1文件夹是最开始交给彭杰用于中期检查的数据
+其他可以不看

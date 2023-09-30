@@ -1,0 +1,11 @@
+1.data1_weibo文件夹中的test.txt是微博数据集的信息
+2.data1_renminwang_new文件夹的test.txt是人民网数据集的信息
+3.model和preprocessing文件夹都是CasCN原始代码
+4.result_processing文件夹是对训练得到的结果进行处理的代码
+运行：
+修改preprocessiong\config.py以及model\config.py中的DATA_PATHA和cascades为数据所在路径（代码中已为人民网数据的路径，可不修改）
+修改preprocessiong\config.py以及model\config.py中的observation和pre_times为对应的观测窗口和预测时间
+根据CasCN原始的README运行代码即可
+注意：
+run_graph_sequence中的feat_in、num_nodes会因为观测窗口和预测时间的变化而改变，需要在进行完上面的步骤后先运行一次run_graph_sequence看看具体值是多少，然后修改成具体值后再进行训练
+CasCN.docx是当时训练时随机截图，可不看
